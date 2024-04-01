@@ -1,9 +1,10 @@
-import "./styles.css"
+import { Container } from "./styles";
 
 export function Details() {
   return (
-    <div>
+    <Container>
       <h1>Hello World!</h1>
-    </div>
+      <span>Fernando Ruan</span>
+    </Container>
   )
 }
