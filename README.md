@@ -18,6 +18,8 @@ ScribbleSync é uma aplicação front-end desenvolvida em React para gerenciar a
 ## Tecnologias Utilizadas
 - **React**: Biblioteca JavaScript para construção de interfaces de usuário.
 - **HTML/CSS**: Linguagens para estruturação e estilização da aplicação.
+- Vite: Build tool para projetos JavaScript modernos, proporcionando um rápido ambiente de desenvolvimento.
+- Node.js: Ambiente de execução JavaScript que permite rodar o código JavaScript no lado do servidor.
 
 
 ## Próximos Passos
