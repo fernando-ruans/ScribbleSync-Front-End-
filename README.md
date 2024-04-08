@@ -28,3 +28,5 @@ ScribbleSync é uma aplicação front-end desenvolvida em React para gerenciar a
 - Integrar com serviços de armazenamento em nuvem para uma sincronização mais robusta.
 
 Este é apenas um esboço inicial. 
+
+[![01.png](https://i.postimg.cc/65VZwMXD/01.png)](https://postimg.cc/crHCBM6m)
