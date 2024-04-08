@@ -29,4 +29,4 @@ ScribbleSync é uma aplicação front-end desenvolvida em React para gerenciar a
 
 Este é apenas um esboço inicial. 
 
-[![01.png](https://i.postimg.cc/65VZwMXD/01.png)](https://postimg.cc/crHCBM6m)
+[![img.jpg](https://i.postimg.cc/t4ZHWM4c/img.jpg)](https://postimg.cc/Bj0yGND5)
