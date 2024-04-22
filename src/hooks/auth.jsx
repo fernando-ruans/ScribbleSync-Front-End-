@@ -30,6 +30,13 @@ function AuthProvider ({ children }) {
     }
   }
 
+  async function signOut () {
+    const token = localStorage.removeItem("@ScribbleSync:token");
+    const user = localStorage.removeItem("@ScribbleSync:user");
+
+    setData({});
+  }
+
   useEffect(() => {
     const token = localStorage.getItem("@ScribbleSync:token");
     const user = localStorage.getItem("@ScribbleSync:user");
@@ -45,7 +52,12 @@ function AuthProvider ({ children }) {
   }, []);
 
   return (
-    <AuthContext.Provider value={{ signIn, user: data.user }}>
+    <AuthContext.Provider value={{ 
+      signIn, 
+      signOut,
+      user: data.user,      
+      }}
+      >
       {children}
     </AuthContext.Provider>
   )
