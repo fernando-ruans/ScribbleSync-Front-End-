@@ -45,6 +45,20 @@ export function New() {
   }
 
   async function handleNewNote() {
+    if (!title) {
+      return alert("Preencha o título da nota.")
+    }
+
+    if (newLink) {
+      return alert("Preencha o campo Link ou ficará vazio.")
+    }
+
+    if (newTag) {
+      return alert("Preencha o campo Tag ou ficará vazio.")
+    }
+
+    
+
     await api.post("/notes", {
       title,
       description,
@@ -101,7 +115,7 @@ export function New() {
                 tags.map((tag, index) => (
                   <NoteItem 
                   key={String(index)}
-                  value="example"
+                  value={tag}
                   onClick={() => handleRemoveTag(tag)}    
                   />
                 ))
