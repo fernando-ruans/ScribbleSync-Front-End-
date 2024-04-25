@@ -52,7 +52,7 @@ export function Profile() {
       <Form>
         <Avatar>
           <img
-            src={avatar}
+            src={avatarUrl}
             alt="Foto de usuário"
           />
 
